@@ -12,6 +12,7 @@ Currently, the repository includes custom builds of the following forks with pat
 
 1. [ContiPerf](https://github.com/pethers/contiperf) - A performance testing library for Java projects.
 2. [dchartsclone](https://github.com/pethers/dchartsclone) - A library for creating dynamic and interactive charts in Java applications.
+3. [geronimo-jms_2.0_spec-1.0-alpha-2-patched-auto-name.jar](https://github.com/Hack23/ciamavenrepo/blob/main/geronimo-jms_2.0_spec-1.0-alpha-2-patched-auto-name.jar) - A patched version of the Geronimo JMS 2.0 Specification. The only code change made is to update the manifest file to support the Java module system.
 
 ## Usage
 
