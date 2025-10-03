@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-r2dbc",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-spi",
+          "version": {
+            "requires": "0.8.6.RELEASE"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-r2dbc-5.3.39.hack23java25.jar",
+          "url": "spring-r2dbc-5.3.39.hack23java25.jar",
+          "size": 137785,
+          "sha512": "2c20b6c32e8d5cc1b7ee1d612e7d24fe3db0bebbb110578c75e476435ccd3d62d2b37f028446ecb0c9880ee8f8b342822a41b113c4fecc8f12f18b995acde463",
+          "sha256": "5220f6e342c358b60fa9f7c2f5f6ccf01a49f302ed63a3b2d49f00d119cd6591",
+          "sha1": "c3b3672e6e16cd4510ba9e9a7bbfa8eeb99dadd3",
+          "md5": "e1c17a1d1664ffd391fad4c898fc5a96"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-spi",
+          "version": {
+            "requires": "0.8.6.RELEASE"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-r2dbc-5.3.39.hack23java25.jar",
+          "url": "spring-r2dbc-5.3.39.hack23java25.jar",
+          "size": 137785,
+          "sha512": "2c20b6c32e8d5cc1b7ee1d612e7d24fe3db0bebbb110578c75e476435ccd3d62d2b37f028446ecb0c9880ee8f8b342822a41b113c4fecc8f12f18b995acde463",
+          "sha256": "5220f6e342c358b60fa9f7c2f5f6ccf01a49f302ed63a3b2d49f00d119cd6591",
+          "sha1": "c3b3672e6e16cd4510ba9e9a7bbfa8eeb99dadd3",
+          "md5": "e1c17a1d1664ffd391fad4c898fc5a96"
+        }
+      ]
+    }
+  ]
+}

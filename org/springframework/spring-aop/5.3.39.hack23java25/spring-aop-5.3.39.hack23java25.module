@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-aop",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-aop-5.3.39.hack23java25.jar",
+          "url": "spring-aop-5.3.39.hack23java25.jar",
+          "size": 385355,
+          "sha512": "ced4d2eba1defc05af09836b410f17bc9a88d24b87cfd6fd009c519e487ad659e94b48562abeaddce50c0571584ca23e997fc136fda971af40243b430aded7f9",
+          "sha256": "80f8db9f9bac06bad178f11259010e397dc2b09f78704e0b8398cb38ebb4c8eb",
+          "sha1": "582bc2b1009db5ae36e1d8a1f19753a8a8f13eef",
+          "md5": "c0075321c6aa7fb5a03739fde9fa8bda"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-aop-5.3.39.hack23java25.jar",
+          "url": "spring-aop-5.3.39.hack23java25.jar",
+          "size": 385355,
+          "sha512": "ced4d2eba1defc05af09836b410f17bc9a88d24b87cfd6fd009c519e487ad659e94b48562abeaddce50c0571584ca23e997fc136fda971af40243b430aded7f9",
+          "sha256": "80f8db9f9bac06bad178f11259010e397dc2b09f78704e0b8398cb38ebb4c8eb",
+          "sha1": "582bc2b1009db5ae36e1d8a1f19753a8a8f13eef",
+          "md5": "c0075321c6aa7fb5a03739fde9fa8bda"
+        }
+      ]
+    }
+  ]
+}

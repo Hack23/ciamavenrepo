@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-context-indexer",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-context-indexer-5.3.39.hack23java25.jar",
+          "url": "spring-context-indexer-5.3.39.hack23java25.jar",
+          "size": 27088,
+          "sha512": "89e35963f0a33c36602963de1c90a2233e53362612044d13181c288cfb7a0396d6efbe591fc9b7cf94eed2becac64619f03e70139a3ec22fe32c1e5e9f28f511",
+          "sha256": "8df3ff5b4287d1b9c0698f52636ab858da21f375eb341af8dd15d1c7d61d8ef1",
+          "sha1": "b6f8f5cf3d124b077ca670bea3986f8b0e1cf2a5",
+          "md5": "f94eb389f7f45df598b697d7dc63ff0b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-context-indexer-5.3.39.hack23java25.jar",
+          "url": "spring-context-indexer-5.3.39.hack23java25.jar",
+          "size": 27088,
+          "sha512": "89e35963f0a33c36602963de1c90a2233e53362612044d13181c288cfb7a0396d6efbe591fc9b7cf94eed2becac64619f03e70139a3ec22fe32c1e5e9f28f511",
+          "sha256": "8df3ff5b4287d1b9c0698f52636ab858da21f375eb341af8dd15d1c7d61d8ef1",
+          "sha1": "b6f8f5cf3d124b077ca670bea3986f8b0e1cf2a5",
+          "md5": "f94eb389f7f45df598b697d7dc63ff0b"
+        }
+      ]
+    }
+  ]
+}

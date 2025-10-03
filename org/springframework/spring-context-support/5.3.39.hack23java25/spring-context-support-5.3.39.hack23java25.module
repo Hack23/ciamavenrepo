@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-context-support",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-context-support-5.3.39.hack23java25.jar",
+          "url": "spring-context-support-5.3.39.hack23java25.jar",
+          "size": 187217,
+          "sha512": "a3e34abeb7f1e0e3e9046be15e199b4446c2dd7b284591455d970852a3f41e8388c6670b7dd8c8835d3371bef5479d6902db13c1b21521a1ff02d4b600c7cc11",
+          "sha256": "ba9ce6e516c68065ecd8ed548f58d938a76226efb75569bfcb97588c2d4e1103",
+          "sha1": "99ec6863d7f629ace33884f31fc6c5b49ff6d6a4",
+          "md5": "00ebb3c0550fa08516530fe479b55572"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-context-support-5.3.39.hack23java25.jar",
+          "url": "spring-context-support-5.3.39.hack23java25.jar",
+          "size": 187217,
+          "sha512": "a3e34abeb7f1e0e3e9046be15e199b4446c2dd7b284591455d970852a3f41e8388c6670b7dd8c8835d3371bef5479d6902db13c1b21521a1ff02d4b600c7cc11",
+          "sha256": "ba9ce6e516c68065ecd8ed548f58d938a76226efb75569bfcb97588c2d4e1103",
+          "sha1": "99ec6863d7f629ace33884f31fc6c5b49ff6d6a4",
+          "md5": "00ebb3c0550fa08516530fe479b55572"
+        }
+      ]
+    }
+  ]
+}

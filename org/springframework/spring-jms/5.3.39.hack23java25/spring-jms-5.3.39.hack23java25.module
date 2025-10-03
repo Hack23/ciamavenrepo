@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-jms",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-messaging",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-jms-5.3.39.hack23java25.jar",
+          "url": "spring-jms-5.3.39.hack23java25.jar",
+          "size": 269306,
+          "sha512": "c058ad2f5575e5f1383a640f3d468bdaacc601f1021e25144820685f75689eadaad697ef8fee67059a938226401e3e9b6d4aef4c1087fc67b4355cb581677a04",
+          "sha256": "44231ba740e467b9b56b1375f082773a14885ddc6d102ddfa7d2f8ba10b62f70",
+          "sha1": "4473c5c6a7b076703353244ec843b9070a5b0848",
+          "md5": "340fa030e9b1b6efe985d15d11405ad0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-messaging",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-jms-5.3.39.hack23java25.jar",
+          "url": "spring-jms-5.3.39.hack23java25.jar",
+          "size": 269306,
+          "sha512": "c058ad2f5575e5f1383a640f3d468bdaacc601f1021e25144820685f75689eadaad697ef8fee67059a938226401e3e9b6d4aef4c1087fc67b4355cb581677a04",
+          "sha256": "44231ba740e467b9b56b1375f082773a14885ddc6d102ddfa7d2f8ba10b62f70",
+          "sha1": "4473c5c6a7b076703353244ec843b9070a5b0848",
+          "md5": "340fa030e9b1b6efe985d15d11405ad0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-webflux",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.41"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-webflux-5.3.39.hack23java25.jar",
+          "url": "spring-webflux-5.3.39.hack23java25.jar",
+          "size": 947165,
+          "sha512": "53660de4bb3e654bd4b4d840c1f2bb4e34ab50ad544946430db59edf2f25914ea90a6c2e3592b4f415c991fd41f769feec99fedc14c24d70ea904e7c721cadfa",
+          "sha256": "ec4a328eb194d59a19718ffa3cb20f08c78e757b39cf08630eb438de2859fbf8",
+          "sha1": "f0c486e281a55233dbe48aab8b58df9e034324d6",
+          "md5": "6e9e89d0c5351d6deb46f9ad3e824572"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.4.41"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-servlet-api"
+            },
+            {
+              "group": "org.jboss.spec.javax.websocket",
+              "module": "jboss-websocket-api_1.1_spec"
+            },
+            {
+              "group": "org.jboss.spec.javax.servlet",
+              "module": "jboss-servlet-api_4.0_spec"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.jboss.spec.javax.annotation",
+              "module": "jboss-annotations-api_1.3_spec"
+            },
+            {
+              "group": "org.apache.tomcat",
+              "module": "tomcat-websocket-api"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-webflux-5.3.39.hack23java25.jar",
+          "url": "spring-webflux-5.3.39.hack23java25.jar",
+          "size": 947165,
+          "sha512": "53660de4bb3e654bd4b4d840c1f2bb4e34ab50ad544946430db59edf2f25914ea90a6c2e3592b4f415c991fd41f769feec99fedc14c24d70ea904e7c721cadfa",
+          "sha256": "ec4a328eb194d59a19718ffa3cb20f08c78e757b39cf08630eb438de2859fbf8",
+          "sha1": "f0c486e281a55233dbe48aab8b58df9e034324d6",
+          "md5": "6e9e89d0c5351d6deb46f9ad3e824572"
+        }
+      ]
+    }
+  ]
+}

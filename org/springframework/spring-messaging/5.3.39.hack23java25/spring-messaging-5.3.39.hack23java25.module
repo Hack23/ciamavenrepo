@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-messaging",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-messaging-5.3.39.hack23java25.jar",
+          "url": "spring-messaging-5.3.39.hack23java25.jar",
+          "size": 568369,
+          "sha512": "9fbfec3103341002b78e44a02ebc8167ae0f7c4d04c10e24dc5af7b5fe0b5586e7ffc410ec38c98143bffb990594db476bcca4abf1268a3adc2dc495add69802",
+          "sha256": "884a45aad103b9bcf79094c29a1f69788afcbf3b52a10e06ad04e4fb3f1fcf33",
+          "sha1": "05c297f3726ad00f0fa89d43d40f6c86b35fcde5",
+          "md5": "fce97aba67bea7d2bcfc2b67e092c0a5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-messaging-5.3.39.hack23java25.jar",
+          "url": "spring-messaging-5.3.39.hack23java25.jar",
+          "size": 568369,
+          "sha512": "9fbfec3103341002b78e44a02ebc8167ae0f7c4d04c10e24dc5af7b5fe0b5586e7ffc410ec38c98143bffb990594db476bcca4abf1268a3adc2dc495add69802",
+          "sha256": "884a45aad103b9bcf79094c29a1f69788afcbf3b52a10e06ad04e4fb3f1fcf33",
+          "sha1": "05c297f3726ad00f0fa89d43d40f6c86b35fcde5",
+          "md5": "fce97aba67bea7d2bcfc2b67e092c0a5"
+        }
+      ]
+    }
+  ]
+}

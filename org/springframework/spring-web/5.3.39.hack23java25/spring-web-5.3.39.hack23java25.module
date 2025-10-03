@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-web",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.39.hack23java25.jar",
+          "url": "spring-web-5.3.39.hack23java25.jar",
+          "size": 1660357,
+          "sha512": "eb9ba49f9943232f02c506d003810142b48e490e1ad103362bc24c7df892e8207e618c3bc1531f3a3d5042585125be744d2e79c581e920cafffe7e862e96be22",
+          "sha256": "8ce074407a254ec94e94cdc4ab54230b5bbaa252e6cc0ea1c1217957ff611a3b",
+          "sha1": "59ff49a1fa29107ade6ad961b9588c0c1285cdcf",
+          "md5": "a5c2f028bfc64b193fde98fd3340fdbc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-web-5.3.39.hack23java25.jar",
+          "url": "spring-web-5.3.39.hack23java25.jar",
+          "size": 1660357,
+          "sha512": "eb9ba49f9943232f02c506d003810142b48e490e1ad103362bc24c7df892e8207e618c3bc1531f3a3d5042585125be744d2e79c581e920cafffe7e862e96be22",
+          "sha256": "8ce074407a254ec94e94cdc4ab54230b5bbaa252e6cc0ea1c1217957ff611a3b",
+          "sha1": "59ff49a1fa29107ade6ad961b9588c0c1285cdcf",
+          "md5": "a5c2f028bfc64b193fde98fd3340fdbc"
+        }
+      ]
+    }
+  ]
+}

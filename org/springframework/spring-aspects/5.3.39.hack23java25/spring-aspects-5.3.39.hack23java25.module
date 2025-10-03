@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-aspects",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver",
+          "version": {
+            "requires": "1.9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-aspects-5.3.39.hack23java25.jar",
+          "url": "spring-aspects-5.3.39.hack23java25.jar",
+          "size": 47154,
+          "sha512": "cdea62d8708be8b0597d73393c619a5cdddddfab49149ff45bd607aebba1b3062ceb634417d04d4c6744eb02b970f26238e4874f3ffe4cc61754cf2a6e864084",
+          "sha256": "34ceb2c2e75add2cc18854a34c25f701d4b21025d8ffdeeb8429d339da2f931d",
+          "sha1": "4407a28c9dd7db1ad40337842c7007cdeef60f63",
+          "md5": "212cac24a3fdf75476934ccbe1c24316"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver",
+          "version": {
+            "requires": "1.9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-aspects-5.3.39.hack23java25.jar",
+          "url": "spring-aspects-5.3.39.hack23java25.jar",
+          "size": 47154,
+          "sha512": "cdea62d8708be8b0597d73393c619a5cdddddfab49149ff45bd607aebba1b3062ceb634417d04d4c6744eb02b970f26238e4874f3ffe4cc61754cf2a6e864084",
+          "sha256": "34ceb2c2e75add2cc18854a34c25f701d4b21025d8ffdeeb8429d339da2f931d",
+          "sha1": "4407a28c9dd7db1ad40337842c7007cdeef60f63",
+          "md5": "212cac24a3fdf75476934ccbe1c24316"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-core",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-jcl",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-core-5.3.39.hack23java25.jar",
+          "url": "spring-core-5.3.39.hack23java25.jar",
+          "size": 1493219,
+          "sha512": "0e6f56ad092a02b5e1028749e4f6ee2cfb3010a166ad40ba0cba48ecda6003831e2094b3070571eb53c36d46b1aee50f72df814c87df727cbe28dc4b57957a0e",
+          "sha256": "57d2288e798dca27072fc92f66ed79dbab601f4d61854d41102e0098c7d283df",
+          "sha1": "2cb4f0c577f5bc0262bbe6beb913978dfd9a58d2",
+          "md5": "8c6ccc3b9312cdef032d5d941c12138f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-jcl",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-core-5.3.39.hack23java25.jar",
+          "url": "spring-core-5.3.39.hack23java25.jar",
+          "size": 1493219,
+          "sha512": "0e6f56ad092a02b5e1028749e4f6ee2cfb3010a166ad40ba0cba48ecda6003831e2094b3070571eb53c36d46b1aee50f72df814c87df727cbe28dc4b57957a0e",
+          "sha256": "57d2288e798dca27072fc92f66ed79dbab601f4d61854d41102e0098c7d283df",
+          "sha1": "2cb4f0c577f5bc0262bbe6beb913978dfd9a58d2",
+          "md5": "8c6ccc3b9312cdef032d5d941c12138f"
+        }
+      ]
+    }
+  ]
+}

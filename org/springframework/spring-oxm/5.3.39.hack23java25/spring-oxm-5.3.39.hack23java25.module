@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-oxm",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "xmlpull",
+              "module": "xmlpull"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "xmlpull",
+              "module": "xmlpull"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-oxm-5.3.39.hack23java25.jar",
+          "url": "spring-oxm-5.3.39.hack23java25.jar",
+          "size": 65899,
+          "sha512": "bc2273bdd33ac3a7ac84080be2d6b3d772a0453b26fdb3ccfb5ad6f1b62699406009d97663987d2d433f336d26f58a8cd1a69e1bd9d90f21a5865804b02aaf89",
+          "sha256": "2e8988c26b4e7cb4481bc2a03fe747b9a31f99d6601f45e87b8d2a74f31ea8b2",
+          "sha1": "cf99a16a12ec563af8109f0d503ba83c2d5a4cd4",
+          "md5": "4e442674a798954ec109ed7062709cb8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "xmlpull",
+              "module": "xmlpull"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          },
+          "excludes": [
+            {
+              "group": "xmlpull",
+              "module": "xmlpull"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-oxm-5.3.39.hack23java25.jar",
+          "url": "spring-oxm-5.3.39.hack23java25.jar",
+          "size": 65899,
+          "sha512": "bc2273bdd33ac3a7ac84080be2d6b3d772a0453b26fdb3ccfb5ad6f1b62699406009d97663987d2d433f336d26f58a8cd1a69e1bd9d90f21a5865804b02aaf89",
+          "sha256": "2e8988c26b4e7cb4481bc2a03fe747b9a31f99d6601f45e87b8d2a74f31ea8b2",
+          "sha1": "cf99a16a12ec563af8109f0d503ba83c2d5a4cd4",
+          "md5": "4e442674a798954ec109ed7062709cb8"
+        }
+      ]
+    }
+  ]
+}

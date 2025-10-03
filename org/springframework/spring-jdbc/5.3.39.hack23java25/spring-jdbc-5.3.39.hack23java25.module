@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-jdbc",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-jdbc-5.3.39.hack23java25.jar",
+          "url": "spring-jdbc-5.3.39.hack23java25.jar",
+          "size": 428748,
+          "sha512": "8a3f32c7d68c2466f12709f70849061d99dc750c69875472f9334ec3c0e989b0f612e7b8cac4d52b16e631f9eb46211094dc9d5a65bf6f7ac7069415ba0ff785",
+          "sha256": "88df1fe5365e429e554beeaf8dd9ec837b326cf01aff3cf2cdbdcc1a8ea0811f",
+          "sha1": "753d118f406e1d85ce1bb2542903f5ab5992b84a",
+          "md5": "64537fce65c5adc6cb6413f0cac99ed5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-jdbc-5.3.39.hack23java25.jar",
+          "url": "spring-jdbc-5.3.39.hack23java25.jar",
+          "size": 428748,
+          "sha512": "8a3f32c7d68c2466f12709f70849061d99dc750c69875472f9334ec3c0e989b0f612e7b8cac4d52b16e631f9eb46211094dc9d5a65bf6f7ac7069415ba0ff785",
+          "sha256": "88df1fe5365e429e554beeaf8dd9ec837b326cf01aff3cf2cdbdcc1a8ea0811f",
+          "sha1": "753d118f406e1d85ce1bb2542903f5ab5992b84a",
+          "md5": "64537fce65c5adc6cb6413f0cac99ed5"
+        }
+      ]
+    }
+  ]
+}

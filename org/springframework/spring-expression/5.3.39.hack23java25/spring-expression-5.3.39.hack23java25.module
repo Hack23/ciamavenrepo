@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework",
+    "module": "spring-expression",
+    "version": "5.3.39.hack23java25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-expression-5.3.39.hack23java25.jar",
+          "url": "spring-expression-5.3.39.hack23java25.jar",
+          "size": 294282,
+          "sha512": "e86651266743e1c20aa0cce55a8d97af7a7f1d0d1f9ed1d2ef29d9e4cf839c53af5036ccb7999ab482f3c2c31402a98ac0297f878cecc1dd6efc7088438ff90a",
+          "sha256": "f001bbacabb87f0448c0adf5036cc581734a5290f7cc3cb4d984a3d3a40c5f16",
+          "sha1": "2cb032a917d07c216b6ed2588f2828507abbc4ca",
+          "md5": "be263d471b3feeaa12bf7a7917d43046"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "5.3.39.hack23java25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-expression-5.3.39.hack23java25.jar",
+          "url": "spring-expression-5.3.39.hack23java25.jar",
+          "size": 294282,
+          "sha512": "e86651266743e1c20aa0cce55a8d97af7a7f1d0d1f9ed1d2ef29d9e4cf839c53af5036ccb7999ab482f3c2c31402a98ac0297f878cecc1dd6efc7088438ff90a",
+          "sha256": "f001bbacabb87f0448c0adf5036cc581734a5290f7cc3cb4d984a3d3a40c5f16",
+          "sha1": "2cb032a917d07c216b6ed2588f2828507abbc4ca",
+          "md5": "be263d471b3feeaa12bf7a7917d43046"
+        }
+      ]
+    }
+  ]
+}
